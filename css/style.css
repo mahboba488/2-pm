@@ -1146,7 +1146,7 @@ transform: translateY(-5px);
   position: absolute;
   width: 60px;
   height: 60px;
-  background-color: #fff;
+  background-color: rgb(19, 228, 113);
   z-index: 1;
   top: 50%;
   left: 50%;
