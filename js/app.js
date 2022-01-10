@@ -33,10 +33,7 @@ links.forEach((link) => link.addEventListener("click", () => closeMenu()));
 
 
 
-window.addEventListener("scroll", () => {
-  skillsEffect();
-  countUp();
-});
+
 
 function checkScroll(el) {
   let rect = el.getBoundingClientRect();
