@@ -363,6 +363,19 @@ nav.open .links {
 
 .header-content .image .img-element {
   max-width: 750px;
+  animation: anime_hero 10s linear infinite alternate;
+
+  @keyframes anime_hero
+}
+
+@keyframes anime_hero{
+  from{
+    transform: scale(0.9);
+  }
+
+  to{
+    transform: scale(1);
+  }
 }
 
 header .points1 {
