@@ -1762,9 +1762,104 @@ transform: translateY(-5px);
     right: 40px;
   }
 
-  .testi-content {
-    margin-top: 1rem;
+  .pricing-header{
+    width: 100px;
+    height: 120px;
+    margin: 0 auto;
+    display: inline-block;
+    background: var(--main-color);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
   }
+/*-------------------pricing----------------------*/
+
+#pricing{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 0px;
+  margin-top: 50px;
+
+
+ 
+  
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+.pricing-box:hover .btn-p a{
+  background: #efa459;
+}
+
+
+.pricing-header{
+  width: 150px;
+  height: 120px;
+  margin: 0 auto;
+  display: inline-block;
+  background: var(--main-color);
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+
+
+
+.pricing-header h2{
+  color: #fff;
+  font-size: 40px;
+ 
+}
+
+.pricing-header h6{
+  font-size: .6rem;
+ 
+}
+
+.pricing-title{
+  width: 100%;
+  background: var(--main-color);
+  padding: 10px 0;
+  position: relative;
+  margin: 10px 0;
+}
+
+.pricing-title::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -12px;
+  width: 12px;
+  height: calc(100% + 12px);
+  background: var(--main-color);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+}
+
+.pricing-title h3{
+
+  font-size: 1rem;
+ 
+}
+
+
+
+.pricing-body ol li{
+  font-size: 15px;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 30px;
+  text-align: left;
+
+}
+
 
   
 
